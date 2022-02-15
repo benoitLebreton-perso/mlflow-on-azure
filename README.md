@@ -3,6 +3,14 @@
 ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/mrnivram/mlflow)
 ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/mrnivram/mlflow)
 
+
+
+# Changes of this fork
+
+Among all the options of deployment, I have choosen : ![MLFLOW with remote tracking serveur backend and artifact stores](https://www.mlflow.org/docs/latest/tracking.html#scenario-4-mlflow-with-remote-tracking-server-backend-and-artifact-stores)
+Because we can rely on an azure blob storage for the MLFLOW artifacts (models, figures, ...) and a postgreSQL for the metrics.
+Contrary to a local deployment, we enable the "Model Registry" capability.
+
 # 1. MLflow Tracking Server Docker Container and Deployment on Azure Web App for Containers (Linux)
 This project can be used to deploy the MLflow Tracking Server (version 1.5.0) in a Docker container locally or on Azure. More precisely, it can be used to deploy the Docker image on an Azure Web App, where you will probably also host other services or your ML or DL models.
 
