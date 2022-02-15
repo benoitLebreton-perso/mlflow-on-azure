@@ -7,7 +7,7 @@
 
 # Changes of this fork
 
-Among all the options of deployment, I have choosen : ![MLFLOW with remote tracking serveur backend and artifact stores](https://www.mlflow.org/docs/latest/tracking.html#scenario-4-mlflow-with-remote-tracking-server-backend-and-artifact-stores)
+Among all the options of deployment, I have choosen : [MLFLOW with remote tracking serveur backend and artifact stores](https://www.mlflow.org/docs/latest/tracking.html#scenario-4-mlflow-with-remote-tracking-server-backend-and-artifact-stores)
 Because we can rely on an azure blob storage for the MLFLOW artifacts (models, figures, ...) and a postgreSQL for the metrics.
 Contrary to a local deployment, we enable the "Model Registry" capability.
 
